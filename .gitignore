@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# 本地数据缓存与个人记录
+data/*_daily_qfq.csv
+data/*_index_daily.csv
+data/cache_meta.json
+data/update_log.json
+data/signal_snapshot.json
+data/signal_alerts.json
+data/holdings.json
+data/trades.json
+
+# 回测产物
+reports/*.csv
+reports/*.json
+reports/*.png
+
+# 系统文件
+Thumbs.db
+.DS_Store
